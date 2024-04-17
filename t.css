@@ -1,6 +1,11 @@
 body {
     background: black;
-  }
+}
+.start{
+  padding: 300px;
+  color: pink;
+  text-align: center;
+}
   
   .chest {
     position: absolute;

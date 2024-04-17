@@ -28,10 +28,19 @@ function playFromStart() {
 
 
 
-document.querySelector(".content").onclick=()=>{
-    document.querySelector("#heart").hidden=false
-    document.querySelector("body").style.backgroundColor="#542246"
-    document.querySelector("#heart").hidden=false
-    fadeIn()
-}
-document.body.addEventListener('click', playFromStart);
+document.body.addEventListener('click', function() {
+    // Hide the .start element
+    document.querySelector(".start").style.display = "none";
+
+    // Show the #heart element
+    document.querySelector("#heart").hidden = false;
+
+    // Change the background color
+    document.querySelector("body").style.backgroundColor = "#542246";
+
+    // Start the text fade-in animation
+    fadeIn();
+
+    // Play the audio from the start
+    playFromStart();
+});
