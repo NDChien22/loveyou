@@ -36,7 +36,7 @@ document.body.addEventListener('click', function() {
     document.querySelector("#heart").hidden = false;
 
     // Change the background color
-    document.querySelector("body").style.backgroundColor = "#542246";
+    document.querySelector("body").style.backgroundColor = "#0ce90c85";
 
     // Start the text fade-in animation
     fadeIn();

@@ -6,9 +6,12 @@ body {
 }
 
 .c {
-    color: #fff;
+    color: #fbff00;
     opacity: 0
     
+}
+.spark svg path {
+  fill: rgb(255, 207, 215);
 }
 
 @keyframes fadeIn {
